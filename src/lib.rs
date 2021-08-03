@@ -6,3 +6,6 @@ pub mod reverse_integer;
 
 #[path = "9_palindrome_number/palindrome_number.rs"]
 pub mod palindrome_number;
+
+#[path = "13_roman_to_integer/roman_to_integer.rs"]
+pub mod roman_to_int;
