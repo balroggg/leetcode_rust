@@ -1,7 +1,10 @@
+# https://github.com/rust-lang/rust/issues/85811
+cargo-features = ["edition2021"]
+
 [package]
 name = "leetcode-rust"
 version = "0.1.0"
-edition = "2018"
+edition = "2021"
 
 [lib]
 doctest = false
