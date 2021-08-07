@@ -12,3 +12,6 @@ pub mod roman_to_int;
 
 #[path = "0014_longest_common_prefix/longest_common_prefix.rs"]
 pub mod longest_common_prefix;
+
+#[path = "0020_valid_parentheses/valid_parentheses.rs"]
+pub mod valid_parentheses;
