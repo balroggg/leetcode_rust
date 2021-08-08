@@ -15,3 +15,6 @@ pub mod longest_common_prefix;
 
 #[path = "0020_valid_parentheses/valid_parentheses.rs"]
 pub mod valid_parentheses;
+
+#[path = "0021_merge_two_sorted_lists/merge_two_sorted_lists.rs"]
+pub mod merge_two_sorted_lists;
