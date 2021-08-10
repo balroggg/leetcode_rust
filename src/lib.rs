@@ -21,3 +21,6 @@ pub mod merge_two_sorted_lists;
 
 #[path = "0125_valid_palindrome/valid_palindrome.rs"]
 pub mod valid_palindrome;
+
+#[path = "1089_duplicate_zeros/duplicate_zeros.rs"]
+pub mod duplicate_zeros;
