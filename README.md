@@ -13,6 +13,7 @@ Easy problems:
 - [ ] [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
 - [ ] [27. Remove Element](https://leetcode.com/problems/remove-element)
 - [x] [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
+- [x] [1089. Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)
 
 Medium problems:
 
