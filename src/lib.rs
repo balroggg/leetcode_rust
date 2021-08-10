@@ -18,3 +18,6 @@ pub mod valid_parentheses;
 
 #[path = "0021_merge_two_sorted_lists/merge_two_sorted_lists.rs"]
 pub mod merge_two_sorted_lists;
+
+#[path = "0125_valid_palindrome/valid_palindrome.rs"]
+pub mod valid_palindrome;
