@@ -14,6 +14,7 @@ Easy problems:
 - [ ] [27. Remove Element](https://leetcode.com/problems/remove-element)
 - [x] [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome)
 - [x] [1089. Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros/)
+- [x] [1672. Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)
 
 Medium problems:
 
