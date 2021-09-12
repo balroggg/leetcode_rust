@@ -7,5 +7,5 @@ pub mod p0020_valid_parentheses;
 pub mod p0021_merge_two_sorted_lists;
 pub mod p0125_valid_palindrome;
 pub mod p1089_duplicate_zeros;
-pub mod p1672_richest_customer_wealth;
 pub mod p1614_maximum_nesting_depth_of_the_parentheses;
+pub mod p1672_richest_customer_wealth;
