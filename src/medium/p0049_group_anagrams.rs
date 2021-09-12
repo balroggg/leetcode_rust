@@ -64,23 +64,20 @@ mod tests {
         ]
         .to_vec();
 
-        // helper closure to compare test results in any order
-        let to_vec_strings = |v: Vec<Vec<String>>| -> Vec<String> {
-            v.iter().fold(Vec::new(), |mut acc, x| {
-                for v in x {
-                    acc.push(v.clone());
-                }
-                acc
-            })
-        };
-        let mut output = to_vec_strings(group_anagrams(strs.clone()));
+        let mut output = group_anagrams(strs.clone())
+            .into_iter()
+            .flatten()
+            .collect::<Vec<_>>();
         output.sort_unstable();
-        let mut exp = to_vec_strings(exp);
+        let mut exp = exp.into_iter().flatten().collect::<Vec<_>>();
         exp.sort_unstable();
         // check group_anagrams
         assert_eq!(output, exp);
 
-        let mut output = to_vec_strings(group_anagrams_v2(strs.clone()));
+        let mut output = group_anagrams_v2(strs.clone())
+            .into_iter()
+            .flatten()
+            .collect::<Vec<_>>();
         output.sort_unstable();
         // check group_anagrams_v2
         assert_eq!(output, exp);
