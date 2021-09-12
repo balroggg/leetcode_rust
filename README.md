@@ -20,6 +20,7 @@ Easy problems:
 Medium problems:
 
 - [ ] [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers)
+- [x] [49. Group Anagrams](https://leetcode.com/problems/group-anagrams) ![(code)](src/medium/p0049_group_anagrams.rs)
 
 Hard problems:
 
